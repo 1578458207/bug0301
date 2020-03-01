@@ -10,6 +10,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableFeignClients
 public class ComRun {
     public static void main(String[] args) {
+        //测试本地仓库上传 远程仓库
         SpringApplication.run(ComRun.class,args);
     }
 }
